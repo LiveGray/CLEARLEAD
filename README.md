@@ -1,4 +1,4 @@
-# Clear.Lead
+# Clear_Lead
 The name is clear, the concept is simple. Run this to assess the external footprint of a given
 website. Hopefully, there will be a clear lead to follow. 
 
@@ -14,7 +14,7 @@ Once looped through, the amass output files are dropped into Aquatone for valida
 Sit back and wait... :D
 
 # Installation & Usage (Test on Kali 2020)
-Clear.Lead is a breeze to use. Simply clone the directory, and cd into it.
+Clear_Lead is a breeze to use. Simply clone the directory, and cd into it.
 
 Assuming installation is on a kali system, amass is installed by default. 
 
@@ -27,6 +27,8 @@ Once Aquatone is installed, and executable, setup a targets.txt file in the same
 Example "targets.txt" format:
 
 testthissite.com
+
+
 testsite.com
 
 # Usage Example
