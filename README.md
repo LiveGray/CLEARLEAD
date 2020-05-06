@@ -24,12 +24,7 @@ Aquatone can be installed by reviewing: https://github.com/michenriksen/aquatone
 
 Once Aquatone is installed, and executable, setup a targets.txt file in the same directory. 
 
-Example "targets.txt" format:
 
-testthissite.com
-
-
-testsite.com
 
 # Usage Example
 ![alt text](https://github.com/nins3i/Clear_Lead/blob/master/cl.png)
