@@ -32,6 +32,11 @@ class clear_lead:
         for file in files:
             aqua_cmd = "cat Amass-Output/" + file + " | ./aquatone -ports medium -out ./Aquatone_Output/" + file       
             os.system(aqua_cmd)
+    
+    def nmap_top30(self):
+        cmd = "nmap -vv -Pn -T2 -sV --top-ports 30 -iL targets.txt -oX  NMap/top30-nmap.xml | tee  'NMap/top30-nmap.txt' "
+        os.system(cmd)
+
             
 def run():
     Clear_Lead = clear_lead()
@@ -41,6 +46,7 @@ def main():
     Clear_Lead = clear_lead()
     Clear_Lead.check_dir()
     Clear_Lead.amass_enum()
+    Clear_Lead.nmap_top30()
 
 if __name__ == '__main__':
     try:
