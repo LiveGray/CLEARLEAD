@@ -1,6 +1,6 @@
 import os
 
-class clear_lead:
+class CLEARLEAD:
     def __init__(self):
        print("Initiating connection to the matrix...")
        print("Enjoy your stay. :p")
@@ -39,14 +39,14 @@ class clear_lead:
 
             
 def run():
-    Clear_Lead = clear_lead()
-    Clear_Lead.aquatone_enum()
+    CLEARLEAD = CLEARLEAD()
+    CLEARLEAD.aquatone_enum()
         
 def main():
-    Clear_Lead = clear_lead()
-    Clear_Lead.check_dir()
-    Clear_Lead.amass_enum()
-    Clear_Lead.nmap_top30()
+    CLEARLEAD = CLEARLEAD()
+    CLEARLEAD.check_dir()
+    CLEARLEAD.amass_enum()
+    CLEARLEAD.nmap_top30()
 
 if __name__ == '__main__':
     try:
